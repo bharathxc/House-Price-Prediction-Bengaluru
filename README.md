@@ -48,7 +48,4 @@ Recommended quick smoke test (in notebook)
 2. Run the initial import and data-load cells to confirm pandas reads the CSV.
 3. Run the preprocessing cells up to creation of `df_model` and a single `RandomForestRegressor(n_estimators=10, random_state=42)` fit on a small sample to confirm training runs.
 
-If you want
-- I can add a `requirements.txt` inferred from the notebook imports, create a small `scripts/` inference helper, or update the notebook to use a relative `file_path` automatically. Tell me which and I will add it.
 
-— End
